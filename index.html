@@ -17,13 +17,18 @@
     </header>
 
     <main>
-      <form id="poem-generator-form">
-        <input type="text" placeholder="Enter the topic of the Old English poem" autofocus required autocomplete="off"
-          class="instructions" id="user-instructions" />
-        <input type="submit" class="submit-button" />
-      </form>
+      <div class="form-container">
+        <form id="poem-generator-form">
+          <input type="text" placeholder="Enter the topic of an Old English poem" autofocus required autocomplete="off"
+            class="instructions" id="user-instructions" />
+          <input type="submit" class="submit-button" />
+
+        </form>
+        <div class="hint">i.e: But Beowulf had not looked on the legacy of these men with too eager an eye, for all its
+          gold.</div>
+      </div>
       <br />
-      <div class="poem" id="poem">
+      <div class="poem hidden" id="poem">
       </div>
     </main>
     <br />
